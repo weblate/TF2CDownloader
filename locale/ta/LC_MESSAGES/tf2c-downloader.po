@@ -8,54 +8,58 @@ msgstr ""
 "Project-Id-Version: tf2c-downloader\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-24 05:14-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-14 02:02+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/tf2cdownloader/"
+"tf2cdownloader/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: downloads.py:36
 msgid "Extracting the downloaded archive, please wait patiently."
 msgstr ""
+"பதிவிறக்கம் செய்யப்பட்ட காப்பகத்தை பிரித்தெடுத்தல், தயவுசெய்து பொறுமையாக காத்திருங்கள்."
 
 #: downloads.py:65
 msgid "Patching your game with the new update, please wait patiently."
 msgstr ""
+"புதிய புதுப்பிப்புடன் உங்கள் விளையாட்டை ஒட்டிக்கொள்வது, பொறுமையாக காத்திருங்கள்."
 
 #: downloads.py:73
 #, python-format
 msgid "%s byte"
 msgid_plural "%s bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s பைட்"
+msgstr[1] "%s பைட்டுகள்"
 
 #: downloads.py:75
 #, python-format
 msgid "%.2f kB"
-msgstr ""
+msgstr "%.2f தோராயமாக"
 
 #: downloads.py:77
 #, python-format
 msgid "%.2f MB"
-msgstr ""
+msgstr "%எம்பி"
 
 #: downloads.py:79
 #, python-format
 msgid "%.2f GB"
-msgstr ""
+msgstr "%.2f சிபி"
 
 #: downloads.py:81
 #, python-format
 msgid "%.2f TB"
-msgstr ""
+msgstr "%.2f காசநோய்"
 
 #: downloads.py:83
 #, python-format
 msgid "%.2f PB"
-msgstr ""
+msgstr "%.2f பிபி"
 
 #: downloads.py:88
 #, python-format
@@ -63,16 +67,21 @@ msgid ""
 "You don't have enough free space in your computer's default temporary folder "
 "for this. A minimum of %s is required. Select alternate temporary folder?"
 msgstr ""
+"இதற்காக உங்கள் கணினியின் இயல்புநிலை தற்காலிக கோப்புறையில் போதுமான இலவச இடம் உங்களிடம் "
+"இல்லை. குறைந்தபட்சம் %s தேவை. மாற்று தற்காலிக கோப்புறையைத் தேர்ந்தெடுக்கவா?"
 
 #: downloads.py:95
 msgid ""
 "Still not enough space at specified path. Retry, and select a different "
 "drive if available."
 msgstr ""
+"குறிப்பிட்ட பாதையில் இன்னும் போதுமான இடம் இல்லை. மீண்டும் முயற்சிக்கவும், கிடைத்தால் வேறு "
+"இயக்ககத்தைத் தேர்ந்தெடுக்கவும்."
 
 #: downloads.py:97
 msgid "Folder selection prompt closed without choosing any path. Exiting..."
 msgstr ""
+"கோப்புறை தேர்வு வரியில் எந்த பாதையையும் தேர்வு செய்யாமல் மூடப்பட்டது. வெளியேறுதல் ..."
 
 #: downloads.py:102
 #, python-format
@@ -80,14 +89,16 @@ msgid ""
 "You don't have enough free space for the extraction. A minimum of %s at your "
 "chosen extraction site is required."
 msgstr ""
+"பிரித்தெடுப்பதற்கு உங்களிடம் போதுமான இலவச இடம் இல்லை. நீங்கள் தேர்ந்தெடுத்த பிரித்தெடுத்தல் "
+"தளத்தில் குறைந்தபட்சம் %s தேவை."
 
 #: downloads.py:124
 msgid "Getting the archive..."
-msgstr ""
+msgstr "காப்பகத்தைப் பெறுதல் ..."
 
 #: downloads.py:129
 msgid "The specified extraction location does not exist."
-msgstr ""
+msgstr "குறிப்பிட்ட பிரித்தெடுத்தல் இடம் இல்லை."
 
 #: gui.py:26
 msgid ""
@@ -97,111 +108,130 @@ msgid ""
 "        2 - Check for and apply any available updates\n"
 "        3 - Verify and repair game files"
 msgstr ""
+"TF2CDownloader க்கு வருக. தொடர ஒரு எண்ணை உள்ளிடவும்.\n"
+"\n"
+" 1 - விளையாட்டை நிறுவவும் அல்லது மீண்டும் நிறுவவும்\n"
+" 2 - கிடைக்கக்கூடிய புதுப்பிப்புகளைச் சரிபார்த்து விண்ணப்பிக்கவும்\n"
+" 3 - விளையாட்டு கோப்புகளை சரிபார்த்து சரிசெய்யவும்"
 
 #: gui.py:32 gui.py:42
 msgid ""
 "Starting the download for TF2 Classic... You may see some errors that are "
 "safe to ignore."
 msgstr ""
+"TF2 கிளாசிக் பதிவிறக்கத்தைத் தொடங்குகிறது ... புறக்கணிக்க பாதுகாப்பான சில பிழைகளை "
+"நீங்கள் காணலாம்."
 
 #: gui.py:35 gui.py:45 tf2c_downloader.py:133
 msgid "The installation has successfully completed. Remember to restart Steam!"
 msgstr ""
+"நிறுவல் வெற்றிகரமாக முடிந்தது. நீராவியை மறுதொடக்கம் செய்ய நினைவில் கொள்ளுங்கள்!"
 
 #: gui.py:40 tf2c_downloader.py:154
 msgid "The update has successfully completed."
-msgstr ""
+msgstr "புதுப்பிப்பு வெற்றிகரமாக முடிந்தது."
 
 #: gui.py:52
 msgid "Invalid choice. Please retry."
-msgstr ""
+msgstr "தவறான தேர்வு. மீண்டும் முயற்சிக்கவும்."
 
 #: gui.py:64
 msgid "The application is in script mode, using default choice."
 msgstr ""
+"இயல்புநிலை தேர்வைப் பயன்படுத்தி பயன்பாடு ச்கிரிப்ட் பயன்முறையில் உள்ளது."
 
 #: gui.py:71
 msgid "yes"
-msgstr ""
+msgstr "ஆம்"
 
 #: gui.py:72
 msgid "no"
-msgstr ""
+msgstr "இல்லை"
 
 #: gui.py:78
 msgid " {y/n}"
-msgstr ""
+msgstr " {y/n}"
 
 #: gui.py:80
 msgid " {Y/n}"
-msgstr ""
+msgstr " {Y/n}"
 
 #: gui.py:82
 msgid " {y/N}"
-msgstr ""
+msgstr " {y/n}"
 
 #: gui.py:92
 msgid ""
 "[bold blue]Please respond with 'yes' or 'no' (or 'y' or 'n').[/bold blue]"
 msgstr ""
+"[தைரியமான நீலம்] தயவுசெய்து 'ஆம்' அல்லது 'இல்லை' (அல்லது 'ஒய்' அல்லது 'n') உடன் "
+"பதிலளிக்கவும். [/தைரியமான நீலம்]"
 
 #: gui.py:126 tf2c_downloader.py:88
 msgid "[bold]You are safe to close this window."
-msgstr ""
+msgstr "[தைரியம்] இந்த சாளரத்தை மூடுவதற்கு நீங்கள் பாதுகாப்பாக இருக்கிறீர்கள்."
 
 #: gui.py:128 tf2c_downloader.py:90
 msgid "Press Enter to exit."
-msgstr ""
+msgstr "வெளியேற Enter ஐ அழுத்தவும்."
 
 #: selfupdate.py:34
 msgid ""
 "WARNING: downloader failed to check itself for updates, potentially out-of-"
 "date."
 msgstr ""
+"எச்சரிக்கை: புதுப்பிப்புகளுக்காக தன்னை சரிபார்க்க டவுன்லோடர் தோல்வியுற்றார், காலாவதியானது."
 
 #: selfupdate.py:41
 msgid "TF2CDownloader appears to be up-to-date."
-msgstr ""
+msgstr "TF2CDownloader புதுப்பித்த நிலையில் இருப்பதாகத் தெரிகிறது."
 
 #: selfupdate.py:42
 msgid ""
 "TF2CDownloader has an update available. Your current version may not work "
 "properly. Do you want to install it?"
 msgstr ""
+"TF2CDownloader ஒரு புதுப்பிப்பைக் கொண்டுள்ளது. உங்கள் தற்போதைய பதிப்பு சரியாக வேலை "
+"செய்யாது. அதை நிறுவ விரும்புகிறீர்களா?"
 
 #: selfupdate.py:43
 msgid ""
 "Delete TF2CDownloader, then redownload and relaunch it from https://"
 "tf2classic.com/download"
 msgstr ""
+"TF2CDownloader ஐ நீக்கி, பின்னர் அதை மீண்டும் ஏற்றி https://tf2classic.com/download "
+"இலிருந்து மீண்டும் இணைக்கவும்"
 
 #: selfupdate.py:45
 msgid "TF2CDownloader out-of-date."
-msgstr ""
+msgstr "TF2CDownloader க்கு வெளியே."
 
 #: selfupdate.py:47
 msgid "User chose to skip update. Things may be broken."
 msgstr ""
+"புதுப்பிப்பைத் தவிர்க்க பயனர் தேர்வு செய்தார். விசயங்கள் உடைக்கப்படலாம்."
 
 #: setup.py:66
 #, python-format
 msgid "Installation location not specified, will assume: %s"
-msgstr ""
+msgstr "நிறுவல் இடம் குறிப்பிடப்படவில்லை, கருதும்: %s"
 
 #: setup.py:79
 #, python-format
 msgid "Sourcemods folder was automatically found at: %s"
-msgstr ""
+msgstr "சோர்ச்மோட்ச் கோப்புறை தானாகவே காணப்பட்டது: %s"
 
 #: setup.py:80
 msgid "Does that look correct?"
-msgstr ""
+msgstr "அது சரியானதா?"
 
 #: setup.py:86
 msgid ""
 "WARNING: Steam's sourcemods folder has not been found, or you chose not to "
 "use it."
 msgstr ""
+"எச்சரிக்கை: ச்டீமின் சோர்ச்மோட்ச் கோப்புறை கண்டுபிடிக்கப்படவில்லை, அல்லது நீங்கள் அதைப் பயன்படுத்"
+"த வேண்டாம் என்று தேர்வு செய்தீர்கள்."
 
 #: setup.py:87
 #, python-format
@@ -209,10 +239,12 @@ msgid ""
 "Would you like to extract in %s? You must move it to your sourcemods "
 "manually."
 msgstr ""
+"%s இல் பிரித்தெடுக்க விரும்புகிறீர்களா? நீங்கள் அதை உங்கள் சோர்ச்மாட்களுக்கு கைமுறையாக நகர்த்"
+"த வேண்டும்."
 
 #: setup.py:91
 msgid "Please, enter the location in which TF2 Classic will be installed to.\n"
-msgstr ""
+msgstr "தயவுசெய்து, TF2 கிளாசிக் நிறுவப்படும் இடத்தை உள்ளிடவும்.\n"
 
 #: setup.py:94
 #, python-format
@@ -220,26 +252,32 @@ msgid ""
 "TF2 Classic will be installed in %s\n"
 "Do you accept?"
 msgstr ""
+"TF2 கிளாசிக் %s இல் நிறுவப்படும்\n"
+" நீங்கள் ஏற்றுக்கொள்கிறீர்களா?"
 
 #: setup.py:95
 msgid "Reinitialising...\n"
-msgstr ""
+msgstr "மறுசீரமைத்தல் ...\n"
 
 #: tf2c_downloader.py:46
 msgid ""
 "Looks like we're running in the background. We don't want that, so we're "
 "exiting."
 msgstr ""
+"நாங்கள் பின்னணியில் இயங்குவது போல் தெரிகிறது. நாங்கள் அதை விரும்பவில்லை, எனவே நாங்கள் "
+"வெளியேறுகிறோம்."
 
 #: tf2c_downloader.py:85 tf2c_downloader.py:163
 msgid "[italic magenta]----- Exception details above this line -----"
-msgstr ""
+msgstr "[இத்தாலிக் மெசந்தா] ----- இந்த வரிக்கு மேலே விதிவிலக்கு விவரங்கள் -----"
 
 #: tf2c_downloader.py:86 tf2c_downloader.py:164
 msgid ""
 "[bold red]:warning: The program has failed. Post a screenshot in #technical-"
 "issues on the Discord. :warning:[/bold red]"
 msgstr ""
+"[தைரியமான சிவப்பு]: எச்சரிக்கை: நிரல் தோல்வியுற்றது. டிச்கார்ட்டில் #தொழில்நுட்ப "
+"சிக்கல்களில் ஒரு திரை சாட்டை இடுங்கள். : எச்சரிக்கை: [/தைரியமான சிவப்பு]"
 
 #: tf2c_downloader.py:97
 msgid ""
@@ -267,80 +305,117 @@ msgid ""
 "the\n"
 "path will be the current work directory."
 msgstr ""
+"பயன்பாடு: TF2Cownloader [கட்டளை] [பாதை]\n"
+" TF2 கிளாசிக் நிறுவல் பயன்பாடு.\n"
+"\n"
+" எந்த வாதங்களும் வழங்கப்படாவிட்டால், பதிவிறக்குபவர் அமைவு பயன்முறையில் இயக்கப்படும்\n"
+" இது ஒரு வழக்கமான கேள்விகளைக் கேட்கப்படும்\n"
+" பயனர். டெச்க்டாப்பில் இருந்து பதிவிறக்கத்தைத் திறக்கும்போது இதுதான் பயன்படுத்தப்படுகிறது.\n"
+"\n"
+" செல்லுபடியாகும் கட்டளைகள்:\n"
+" -இன்ச்டால் TF2 கிளாசிக் ஒரு புதிய கோப்புறையில் பாதைக்குள் நிறுவுகிறது\n"
+" -முன்பே இருக்கும் TF2 கிளாசிக் நிறுவலை அதன் புதுப்பிக்கிறது\n"
+" பாதையின் உள்ளே கோப்புறை\n"
+" -உதவி இதைக் காட்டுகிறது\n"
+"\n"
+" பாதை என்பது TF2 கிளாசிக் கோப்புறையைக் கொண்ட கோப்புறை. இது பொதுவாக\n"
+" வாடிக்கையாளர்களுக்கான சோர்ச்மோட்ச் கோப்புறை அல்லது மூல அர்ப்பணிக்கப்பட்ட சேவையக கோப்புறை\n"
+" சேவையகங்கள்.\n"
+"\n"
+" பாதை வழங்கப்படாவிட்டால், அது கண்டறியப்பட்ட பாதையுடன் மாற்றப்படும்\n"
+" நீராவி கோப்பகத்தில் சோர்ச்மோட்ச் கோப்புறை. அதைக் கண்டறிய முடியாவிட்டால், பின்னர்\n"
+" பாதை தற்போதைய பணி கோப்பகமாக இருக்கும்."
 
 #: tf2c_downloader.py:130
 msgid "TF2 Classic is already installed. Assuming a reinstallation."
 msgstr ""
+"TF2 கிளாசிக் ஏற்கனவே நிறுவப்பட்டுள்ளது. மீண்டும் நிறுவப்பட்டதாகக் கருதுகிறது."
 
 #: tf2c_downloader.py:145
 msgid ""
 "TF2 Classic isn't installed, cannot do an update. Consider using --install "
 "instead."
 msgstr ""
+"TF2 கிளாசிக் நிறுவப்படவில்லை, புதுப்பிப்பைச் செய்ய முடியாது. அதற்கு பதிலாக -நிறுவலைப் "
+"பயன்படுத்துவதைக் கவனியுங்கள்."
 
 #: tf2c_downloader.py:157
 msgid "Unrecognised command. Try --help"
-msgstr ""
+msgstr "அங்கீகரிக்கப்படாத கட்டளை. முயற்சிக்கவும் -உதவி"
 
 #: troubleshoot.py:7
 msgid "Applying safety blacklist..."
-msgstr ""
+msgstr "பாதுகாப்பு தடுப்புப்பட்டியலைப் பயன்படுத்துதல் ..."
 
 #: troubleshoot.py:11
 msgid "WARNING: could not apply safety blacklist."
-msgstr ""
+msgstr "எச்சரிக்கை: பாதுகாப்பு தடுப்புப்பட்டியலைப் பயன்படுத்த முடியவில்லை."
 
 #: versions.py:20
 msgid ""
 "Could not get version list. If your internet connection is fine, the servers "
 "could be having technical issues."
 msgstr ""
+"பதிப்பு பட்டியலைப் பெற முடியவில்லை. உங்கள் இணைய இணைப்பு நன்றாக இருந்தால், சேவையகங்கள் "
+"தொழில்நுட்ப சிக்கல்களைக் கொண்டிருக்கக்கூடும்."
 
 #: versions.py:44 versions.py:72
 msgid ""
 "We can't read the version of your installation. It could be corrupted. Do "
 "you want to reinstall the game?"
 msgstr ""
+"உங்கள் நிறுவலின் பதிப்பை எங்களால் படிக்க முடியாது. அது சிதைக்கப்படலாம். நீங்கள் விளையாட்டை "
+"மீண்டும் நிறுவ விரும்புகிறீர்களா?"
 
 #: versions.py:47 versions.py:66 versions.py:75 versions.py:93 versions.py:101
 #: versions.py:112
 msgid "We have nothing to do. Goodbye!"
-msgstr ""
+msgstr "எங்களுக்கு எதுவும் இல்லை. குட்பை!"
 
 #: versions.py:63
 msgid ""
 "No game installation detected at given sourcemods path. Do you want to "
 "install the game?"
 msgstr ""
+"கொடுக்கப்பட்ட சோர்ச்மோட்ச் பாதையில் விளையாட்டு நிறுவல் எதுவும் கண்டறியப்படவில்லை. நீங்கள் "
+"விளையாட்டை நிறுவ விரும்புகிறீர்களா?"
 
 #: versions.py:90
 msgid ""
 "The version of your installation is unknown. It could be corrupted. Do you "
 "want to reinstall the game?"
 msgstr ""
+"உங்கள் நிறுவலின் பதிப்பு தெரியவில்லை. அது சிதைக்கப்படலாம். நீங்கள் விளையாட்டை மீண்டும் நிறு"
+"வ விரும்புகிறீர்களா?"
 
 #: versions.py:98
 msgid ""
 "We think we've found an existing up-to-date installation of the game. Do you "
 "want to reinstall it?"
 msgstr ""
+"விளையாட்டின் ஏற்கனவே புதுப்பித்த நிறுவலைக் கண்டுபிடித்தோம் என்று நினைக்கிறோம். அதை மீண்டும் "
+"நிறுவ விரும்புகிறீர்களா?"
 
 #: versions.py:106
 msgid "An update is available for TF2 Classic. Do you want to install it?"
-msgstr ""
+msgstr "TF2 கிளாசிக் ஒரு புதுப்பிப்பு கிடைக்கிறது. அதை நிறுவ விரும்புகிறீர்களா?"
 
 #: versions.py:107
 msgid ""
 "If running, please close your game client and/or game launcher. Confirm once "
 "they're closed."
 msgstr ""
+"இயங்கினால், தயவுசெய்து உங்கள் விளையாட்டு கிளையன்ட் மற்றும்/அல்லது கேம் லாஞ்சரை மூடு. அவை "
+"மூடப்பட்டவுடன் உறுதிப்படுத்தவும்."
 
 #: versions.py:110
 msgid "Exiting..."
-msgstr ""
+msgstr "வெளியேறுதல் ..."
 
 #: versions.py:114
 msgid ""
 "An update is available, but no patch could be found for your game version. "
 "Try reinstalling?"
 msgstr ""
+"ஒரு புதுப்பிப்பு கிடைக்கிறது, ஆனால் உங்கள் விளையாட்டு பதிப்பிற்கு எந்த பேட்சையும் காண "
+"முடியவில்லை. மீண்டும் நிறுவ முயற்சிக்கவா?"
