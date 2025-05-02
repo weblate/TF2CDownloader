@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: tf2c-downloader\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-24 05:14-0500\n"
-"PO-Revision-Date: 2023-08-11 15:50+0000\n"
+"PO-Revision-Date: 2025-05-03 09:05+0000\n"
 "Last-Translator: Roger VC <rogervilarasau@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/tf2cdownloader/"
 "tf2cdownloader/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: downloads.py:36
 msgid "Extracting the downloaded archive, please wait patiently."
@@ -26,6 +26,8 @@ msgstr "Extraient l'arxiu descarregat, si us plau espereu pacientment."
 #: downloads.py:65
 msgid "Patching your game with the new update, please wait patiently."
 msgstr ""
+"Apedaçant el vostre joc amb una nova actualització, si us plau espereu "
+"pacientment."
 
 #: downloads.py:73
 #, python-format
@@ -136,7 +138,7 @@ msgstr "Elecció no valida. Si us plau torneu-ho a provar."
 
 #: gui.py:64
 msgid "The application is in script mode, using default choice."
-msgstr ""
+msgstr "L'aplicació està en mode script, utilitzant l'opció per defecte."
 
 #: gui.py:71
 msgid "yes"
@@ -170,57 +172,65 @@ msgstr "[bold]Podeu tancar aquesta finestra."
 
 #: gui.py:128 tf2c_downloader.py:90
 msgid "Press Enter to exit."
-msgstr ""
+msgstr "Premeu Enter per sortir."
 
 #: selfupdate.py:34
 msgid ""
 "WARNING: downloader failed to check itself for updates, potentially out-of-"
 "date."
 msgstr ""
+"ADVERTÈNCIA: el descarregador ha fallat en comprovar si té actualitzacions, "
+"potencialment fora de data."
 
 #: selfupdate.py:41
 msgid "TF2CDownloader appears to be up-to-date."
-msgstr ""
+msgstr "TF2CDownloader sembla estar actualitzat."
 
 #: selfupdate.py:42
 msgid ""
 "TF2CDownloader has an update available. Your current version may not work "
 "properly. Do you want to install it?"
 msgstr ""
+"TF2CDownloader té una actualització disponible. La vostra versió actual no "
+"pot treballar pròpiament. La voleu instal·lar?"
 
 #: selfupdate.py:43
 msgid ""
 "Delete TF2CDownloader, then redownload and relaunch it from https://"
 "tf2classic.com/download"
 msgstr ""
+"Suprimiu TF2CDownloader, a continuació torneu-lo a baixa i rellanceu-lo des "
+"de https://tf2classic.com/download"
 
 #: selfupdate.py:45
 msgid "TF2CDownloader out-of-date."
-msgstr ""
+msgstr "TF2CDownloader desactualitzat."
 
 #: selfupdate.py:47
 msgid "User chose to skip update. Things may be broken."
-msgstr ""
+msgstr "L'usuari ha decidit saltar l'actualització. Les coses es poden trencar."
 
 #: setup.py:66
 #, python-format
 msgid "Installation location not specified, will assume: %s"
-msgstr ""
+msgstr "Ubicació de la instal·lació no especificada, se suposarà: %s"
 
 #: setup.py:79
 #, python-format
 msgid "Sourcemods folder was automatically found at: %s"
-msgstr ""
+msgstr "La carpeta Sourcemods s'ha trobat automàticament a: %s"
 
 #: setup.py:80
 msgid "Does that look correct?"
-msgstr ""
+msgstr "Sembla això correcte?"
 
 #: setup.py:86
 msgid ""
 "WARNING: Steam's sourcemods folder has not been found, or you chose not to "
 "use it."
 msgstr ""
+"ADVERTÈNCIA: No s'ha trobat la carpeta sourcemods de Steam, o s'ha optat per "
+"no utilitzar-la."
 
 #: setup.py:87
 #, python-format
@@ -228,10 +238,12 @@ msgid ""
 "Would you like to extract in %s? You must move it to your sourcemods "
 "manually."
 msgstr ""
+"Voleu extreure a %s? Haureu de moure'l manualment a la vostra capeta "
+"sourcemods."
 
 #: setup.py:91
 msgid "Please, enter the location in which TF2 Classic will be installed to.\n"
-msgstr ""
+msgstr "Si us plau, introduïu la localització on TF2 Classic serà instal·lat.\n"
 
 #: setup.py:94
 #, python-format
@@ -239,26 +251,30 @@ msgid ""
 "TF2 Classic will be installed in %s\n"
 "Do you accept?"
 msgstr ""
+"TF2 Classic s'instal·larà a %s\n"
+"Voleu acceptar?"
 
 #: setup.py:95
 msgid "Reinitialising...\n"
-msgstr ""
+msgstr "Reinicialitzant...\n"
 
 #: tf2c_downloader.py:46
 msgid ""
 "Looks like we're running in the background. We don't want that, so we're "
 "exiting."
-msgstr ""
+msgstr "Sembla estem corrent en el rerefons. No volem això, així que sortint."
 
 #: tf2c_downloader.py:85 tf2c_downloader.py:163
 msgid "[italic magenta]----- Exception details above this line -----"
-msgstr ""
+msgstr "[italic magenta]---- Detalls d'excepció per sobre d'aquesta línia ----"
 
 #: tf2c_downloader.py:86 tf2c_downloader.py:164
 msgid ""
 "[bold red]:warning: The program has failed. Post a screenshot in #technical-"
 "issues on the Discord. :warning:[/bold red]"
 msgstr ""
+"[bold red] :advertència: El programa ha fallat. Publiqueu una captura de "
+"pantalla a #technical-issues a Discord. :advertència:[/bold red]"
 
 #: tf2c_downloader.py:97
 msgid ""
@@ -286,80 +302,124 @@ msgid ""
 "the\n"
 "path will be the current work directory."
 msgstr ""
+"Ús: TF2CDownloader [ORDRE] [CAMÍ]\n"
+"Utilitat d'Instal·lació per TF2 Clàssic.\n"
+"\n"
+"Si cap argument és proporcionat, el descarregador correrà en mode instal·"
+"lació, \n"
+"on es faran una sèrie de preguntes per instal·lar el joc per a un usuari "
+"regular. \n"
+"Això és el que és utilitzat quan s'executa el descarregador des de "
+"l'escriptori.\n"
+"\n"
+"Ordres vàlides:\n"
+"  --install           instal·la TF2 Clàssic a una carpeta nova dins el PATH\n"
+"  --update            actualitza la instal·lació existent de TF2 Classic en "
+"la seva\n"
+"                      carpeta dins el PATH\n"
+"  --help              mostra això.\n"
+"\n"
+"PATH és la carpeta que conté la carpeta de TF2 Classic. Això és usualment "
+"la\n"
+"carpeta sourcemods carpeta per a clients, o la carpeta dedicada de servidors "
+"Source per a\n"
+"servidors.\n"
+"\n"
+"Si el PATH no és proporcionat, llavors serà substituït amb el camí detectat "
+"a la carpeta \n"
+"sourcemods en el directori de Steam. Si no s'ha pogut detectar, llavors el\n"
+"camí serà el directori de treball actual."
 
 #: tf2c_downloader.py:130
 msgid "TF2 Classic is already installed. Assuming a reinstallation."
-msgstr ""
+msgstr "TF2 Classic ja està instal·lat. Assumir la reinstal·lació."
 
 #: tf2c_downloader.py:145
 msgid ""
 "TF2 Classic isn't installed, cannot do an update. Consider using --install "
 "instead."
 msgstr ""
+"TF2 El clàssic no és instal·lat, no es pot fer una actualització. Considereu "
+"utilitzar --install en comptes d'això."
 
 #: tf2c_downloader.py:157
 msgid "Unrecognised command. Try --help"
-msgstr ""
+msgstr "Comanda no reconeguda. Proveu --help"
 
 #: troubleshoot.py:7
 msgid "Applying safety blacklist..."
-msgstr ""
+msgstr "Aplicació de la llista negra de seguretat ..."
 
 #: troubleshoot.py:11
 msgid "WARNING: could not apply safety blacklist."
-msgstr ""
+msgstr "ADVERTÈNCIA: no s'ha pogut aplicar la llista negra de seguretat."
 
 #: versions.py:20
 msgid ""
 "Could not get version list. If your internet connection is fine, the servers "
 "could be having technical issues."
 msgstr ""
+"No es pot obtenir la llista de versions. Si la vostra connexió a Internet "
+"està bé, els servidors poden tindre problemes tècnics."
 
 #: versions.py:44 versions.py:72
 msgid ""
 "We can't read the version of your installation. It could be corrupted. Do "
 "you want to reinstall the game?"
 msgstr ""
+"No podem llegir la versió de la vostra instal·lació. Pot ser corromput. "
+"Voleu reinstal·lar el joc?"
 
 #: versions.py:47 versions.py:66 versions.py:75 versions.py:93 versions.py:101
 #: versions.py:112
 msgid "We have nothing to do. Goodbye!"
-msgstr ""
+msgstr "Tenim res per fer. Adeu!"
 
 #: versions.py:63
 msgid ""
 "No game installation detected at given sourcemods path. Do you want to "
 "install the game?"
 msgstr ""
+"No s'ha detectat cap instal·lació de joc en el camí sourcemods donat. Voleu "
+"instal·lar el joc?"
 
 #: versions.py:90
 msgid ""
 "The version of your installation is unknown. It could be corrupted. Do you "
 "want to reinstall the game?"
 msgstr ""
+"La versió de la vostra instal·lació és desconeguda. Pot ser corromput. Voleu "
+"reinstal·lar el joc?"
 
 #: versions.py:98
 msgid ""
 "We think we've found an existing up-to-date installation of the game. Do you "
 "want to reinstall it?"
 msgstr ""
+"Pensem que hem trobat una instal·lació existent actual del joc. Voleu "
+"reinstal·lar-lo?"
 
 #: versions.py:106
 msgid "An update is available for TF2 Classic. Do you want to install it?"
 msgstr ""
+"Una actualització està disponible per a TF2 Classic. Voleu instal·lar-la?"
 
 #: versions.py:107
 msgid ""
 "If running, please close your game client and/or game launcher. Confirm once "
 "they're closed."
 msgstr ""
+"Si està corrent, tanqueu el client del joc o el llançador. Confirmeu un cop "
+"estiguin tancats."
 
 #: versions.py:110
 msgid "Exiting..."
-msgstr ""
+msgstr "Sortint..."
 
 #: versions.py:114
 msgid ""
 "An update is available, but no patch could be found for your game version. "
 "Try reinstalling?"
 msgstr ""
+"Una actualització és disponible, però es podria trobar cap pedaç per a la "
+"vostra versió de joc. Reinstal·lar?"
