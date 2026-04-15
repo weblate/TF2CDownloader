@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: tf2c-downloader\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-24 05:13-0500\n"
-"PO-Revision-Date: 2023-01-29 11:53+0000\n"
-"Last-Translator: kittyra <jdp0e8mm@anonaddy.me>\n"
+"PO-Revision-Date: 2026-04-16 13:10+0000\n"
+"Last-Translator: Adam <xjooker11@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/tf2cdownloader/"
 "tf2cdownloader/pl/>\n"
 "Language: pl\n"
@@ -18,16 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: downloads.py:36
 msgid "Extracting the downloaded archive, please wait patiently."
-msgstr "Rozpakowywanie pobranego archiwum, prosimy cierpliwie poczekać."
+msgstr "Rozpakowywanie pobranego archiwum. Prosimy o cierpliwość."
 
 #: downloads.py:65
-#, fuzzy
 msgid "Patching your game with the new update, please wait patiently."
-msgstr "Rozpakowywanie pobranego archiwum, prosimy cierpliwie poczekać."
+msgstr ""
+"Trwa aktualizowanie gry za pomocą nowej aktualizacji. Prosimy o cierpliwość."
 
 #: downloads.py:73
 #, python-format
@@ -63,23 +63,28 @@ msgid "%.2f PB"
 msgstr "%.2f PB"
 
 #: downloads.py:88
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "You don't have enough free space in your computer's default temporary folder "
 "for this. A minimum of %s is required. Select alternate temporary folder?"
 msgstr ""
-"Brak wolnego miejsca do rozpakowania. Wymagane jest minimum %s w wybranym "
-"miejscu wydobycia."
+"Brak wolnego miejsca do rozpakowania w domyślnym folderze tymczasowym. "
+"Wymagane jest minimum %s w wybranym miejscu wypakowania. Spróbuj wybrać "
+"alternatywny tymczasowy folder."
 
 #: downloads.py:95
 msgid ""
 "Still not enough space at specified path. Retry, and select a different "
 "drive if available."
 msgstr ""
+"Nadal za mało miejsca we wskazanej ścieżce. Spróbuj ponownie oraz wybierz "
+"inny jest, jeżeli jest to możliwe."
 
 #: downloads.py:97
 msgid "Folder selection prompt closed without choosing any path. Exiting..."
 msgstr ""
+"Okno wyboru folderu zostało zamknięte bez wybrania ścieżki. Program zostanie "
+"zamknięty momentalnie."
 
 #: downloads.py:102
 #, python-format
@@ -106,6 +111,11 @@ msgid ""
 "        2 - Check for and apply any available updates\n"
 "        3 - Verify and repair game files"
 msgstr ""
+"Witamy w TF2CDownloader. Wprowadź liczbę, aby kontynuować.\n"
+"\n"
+"        1 - Zainstaluj lub zainstaluj grę ponownie \n"
+"        2 - Sprawdź i zastosuj wszelkie dostępne aktualizacje\n"
+"        3 - Zweryfikuj i i napraw pliki gry"
 
 #: gui.py:32 gui.py:42
 msgid ""
@@ -126,11 +136,11 @@ msgstr "Aktualizacja przebiegła pomyślnie."
 
 #: gui.py:52
 msgid "Invalid choice. Please retry."
-msgstr ""
+msgstr "Nieprawidłowy wybór. Spróbuj ponownie."
 
 #: gui.py:64
 msgid "The application is in script mode, using default choice."
-msgstr ""
+msgstr "Aplikacja działa w trybie skryptowym i używa domyślnego wyboru."
 
 #: gui.py:71
 msgid "yes"
@@ -205,9 +215,9 @@ msgstr ""
 "Użytkownik zdecydował się pominąć aktualizację. Rzeczy mogą być zepsute."
 
 #: setup.py:66
-#, fuzzy, python-format
+#, python-format
 msgid "Installation location not specified, will assume: %s"
-msgstr "Nie określono dokładnie miejsca instalacji, przyjęto: %s"
+msgstr "Miejsce instalacji nie zostało określone, przyjęto: %s"
 
 #: setup.py:79
 #, python-format
@@ -216,7 +226,7 @@ msgstr "Automatycznie znaleziono folder sourcemods w: %s"
 
 #: setup.py:80
 msgid "Does that look correct?"
-msgstr ""
+msgstr "Czy to wygląda poprawnie?"
 
 #: setup.py:86
 msgid ""
@@ -376,13 +386,12 @@ msgid "We have nothing to do. Goodbye!"
 msgstr "Nie mamy tu nic do roboty. Do widzenia!"
 
 #: versions.py:63
-#, fuzzy
 msgid ""
 "No game installation detected at given sourcemods path. Do you want to "
 "install the game?"
 msgstr ""
-"Nieudane odczytanie wersji zainstalowanej gry. Możliwe, że jej zawartość "
-"mogła ulec uszkodzeniu. Czy wykonać ponowną instalację gry?"
+"Nie wykryto instalacji gry w podanej ścieżce sourcemods. Czy chcesz "
+"zainstalować grę?"
 
 #: versions.py:90
 msgid ""
@@ -400,26 +409,28 @@ msgstr ""
 "Znaleziono istniejącą oraz aktualną grę. Czy wykonać ponowną instalację?"
 
 #: versions.py:106
-#, fuzzy
 msgid "An update is available for TF2 Classic. Do you want to install it?"
-msgstr "Dostępna jest aktualizacja dla zainstalowanej gry. Zainstalować?"
+msgstr "Dostępna jest aktualizacja dla TF2 Classic. Zainstalować?"
 
 #: versions.py:107
 msgid ""
 "If running, please close your game client and/or game launcher. Confirm once "
 "they're closed."
 msgstr ""
+"Jeżeli gra jest uruchomiona, zamknij klienta gry oraz/lub program "
+"uruchamiający, oraz potwierdź gdy zostaną zamknięte."
 
 #: versions.py:110
 msgid "Exiting..."
-msgstr ""
+msgstr "Zamykanie..."
 
 #: versions.py:114
-#, fuzzy
 msgid ""
 "An update is available, but no patch could be found for your game version. "
 "Try reinstalling?"
-msgstr "Dostępna jest aktualizacja dla zainstalowanej gry. Zainstalować?"
+msgstr ""
+"Dostępna jest aktualizacja dla zainstalowanej gry, ale nie znaleziono "
+"poprawki dla twojej wersji gry. Spróbuj przeinstalować."
 
 #, python-format
 #~ msgid ""
